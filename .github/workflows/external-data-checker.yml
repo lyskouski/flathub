@@ -1,8 +1,5 @@
 name: 'Check if external data changed across Flathub org'
 on:
-  schedule:
-    - cron: '0 */4 * * *'
-
   workflow_dispatch:
     inputs:
       app_id:
